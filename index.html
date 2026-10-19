@@ -1,0 +1,1254 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#0B0B16" />
+    <meta name="description" content="THESMOS Jardinería y Medio Ambiente — diseño, mantenimiento de jardines, desbroce, poda, reforestación y huertos urbanos en toda España. Jardinería profesional con impacto social: empleo digno para personas en riesgo de exclusión." />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Asociación THESMOS para la Inserción Sociolaboral" />
+    <link rel="canonical" href="https://samudelgado.github.io/thesmos-jardineria/" />
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_ES" />
+    <meta property="og:site_name" content="THESMOS" />
+    <meta property="og:title" content="THESMOS · Jardinería y Medio Ambiente" />
+    <meta property="og:description" content="Diseño, mantenimiento de jardines, desbroce, poda, reforestación y huertos urbanos en toda España. Jardinería profesional con impacto social: empleo digno para personas en riesgo de exclusión." />
+    <meta property="og:url" content="https://samudelgado.github.io/thesmos-jardineria/" />
+    <meta property="og:image" content="https://samudelgado.github.io/thesmos-jardineria/assets/foto-1.jpg" />
+    <meta property="og:image:width" content="1600" />
+    <meta property="og:image:height" content="1066" />
+    <meta property="og:image:alt" content="Jardinero de THESMOS recortando un seto con tijeras de podar en un jardín verde y cuidado" />
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="THESMOS · Jardinería y Medio Ambiente" />
+    <meta name="twitter:description" content="Diseño, mantenimiento de jardines, desbroce, poda, reforestación y huertos urbanos en toda España. Jardinería profesional con impacto social." />
+    <meta name="twitter:image" content="https://samudelgado.github.io/thesmos-jardineria/assets/foto-1.jpg" />
+    <meta name="twitter:image:alt" content="Jardinero de THESMOS recortando un seto con tijeras de podar en un jardín verde y cuidado" />
+    <link rel="icon" href="assets/foto-1.jpg" type="image/png" />
+    <link rel="apple-touch-icon" href="assets/foto-1.jpg" />
+    <title>THESMOS · Jardinería y Medio Ambiente</title>
+    <!-- Datos estructurados -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "NGO",
+      "name": "Asociación THESMOS para la Inserción Sociolaboral",
+      "alternateName": "THESMOS",
+      "url": "https://samudelgado.github.io/thesmos-jardineria/",
+      "logo": "https://samudelgado.github.io/thesmos-jardineria/assets/foto-1.jpg",
+      "image": "https://samudelgado.github.io/thesmos-jardineria/assets/foto-1.jpg",
+      "description": "Asociación sin ánimo de lucro que crea empleo digno para personas en situación o riesgo de exclusión social a través de servicios profesionales de jardinería y medio ambiente en toda España.",
+      "email": "asociacionthesmos@gmail.com",
+      "telephone": "+34 604 54 14 88",
+      "areaServed": { "@type": "Country", "name": "España" },
+      "makesOffer": [
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Diseño y construcción de jardines" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Conservación y mantenimiento de jardines" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Desbroce y limpieza de parcelas" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Poda" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Reforestación y recuperación de espacios" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Huertos urbanos y economía circular" } }
+      ]
+    }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+    <link rel="preload" as="image" href="assets/foto-2.jpg" fetchpriority="high" />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <style>
+      :root{
+        --bg:#0B0B16;
+        --bg-2:#0F0F1E;
+        --surface:#14142A;
+        --surface-2:#191933;
+        --line:rgba(212,169,68,.22);
+        --line-soft:rgba(255,255,255,.08);
+        --gold:#D4A944;
+        --gold-soft:#E9CC7E;
+        --green:#8CC084;
+        --green-deep:#3E7C4F;
+        --text:#F6F3EA;
+        --muted:#C6C3D4;
+        --muted-2:#9B98AD;
+        --radius:18px;
+        --font-body:"Manrope",system-ui,-apple-system,"Segoe UI",sans-serif;
+        --font-display:"Cinzel",Georgia,serif;
+      }
+      *{box-sizing:border-box}
+      html{scroll-behavior:smooth}
+      body{
+        margin:0;background:var(--bg);color:var(--text);
+        font-family:var(--font-body);font-size:17px;line-height:1.65;
+        -webkit-font-smoothing:antialiased;overflow-x:hidden;
+      }
+      img{max-width:100%;display:block}
+      a{color:inherit}
+      ::selection{background:var(--gold);color:#14100a}
+
+      .wrap{width:min(1180px,100% - 3rem);margin-inline:auto}
+      @media (max-width:560px){.wrap{width:calc(100% - 2.5rem)}}
+
+      /* ---------- Cabecera ---------- */
+      header{
+        position:fixed;inset:0 0 auto 0;z-index:60;
+        transition:background .35s ease,border-color .35s ease,padding .35s ease;
+        padding:1rem 0;border-bottom:1px solid transparent;
+      }
+      header.scrolled{
+        background:rgba(11,11,22,.88);backdrop-filter:blur(14px);
+        border-bottom-color:var(--line-soft);padding:.55rem 0;
+      }
+      .nav{display:flex;align-items:center;gap:1.25rem}
+      .brand{display:flex;align-items:center;gap:.8rem;text-decoration:none;min-width:0}
+      .brand img{width:46px;height:46px;border-radius:50%;object-fit:cover;flex:none;
+        box-shadow:0 0 0 1px var(--line),0 6px 18px rgba(0,0,0,.45)}
+      .brand-name{font-family:var(--font-display);font-weight:700;letter-spacing:.22em;font-size:1.12rem;line-height:1}
+      .brand-sub{display:block;font-family:var(--font-body);font-weight:600;letter-spacing:.14em;
+        font-size:.6rem;text-transform:uppercase;color:var(--gold);margin-top:.3rem}
+      .nav-links{margin-left:auto;display:flex;align-items:center;gap:1.45rem}
+      .nav-links a{
+        text-decoration:none;font-weight:600;font-size:.92rem;color:var(--muted);
+        transition:color .25s ease;position:relative;padding:.25rem 0;white-space:nowrap;
+      }
+      .nav-drop-btn{white-space:nowrap}
+      .nav-links a.btn-gold{white-space:nowrap}
+      @media (max-width:1080px){.nav-links{gap:1.05rem}.nav-links a,.nav-drop-btn{font-size:.88rem}}
+      .nav-links a::after{content:"";position:absolute;left:0;bottom:0;height:2px;width:0;
+        background:var(--gold);transition:width .3s ease}
+      .nav-links a:hover{color:var(--text)}
+      .nav-links a:hover::after{width:100%}
+      .nav-links a.btn-gold{color:#171106;padding:.6rem 1.15rem}
+      .nav-links a.btn-gold::after{display:none}
+      .nav-links a.btn-gold:hover{color:#171106}
+
+      /* ---------- Nuestros servicios (red de webs THESMOS) ---------- */
+      .nav-drop{position:relative}
+      .nav-drop-btn{
+        background:none;border:none;cursor:pointer;font-family:var(--font-body);
+        font-weight:600;font-size:.92rem;color:var(--muted);
+        display:inline-flex;align-items:center;gap:.45rem;padding:.25rem 0;
+        transition:color .25s ease;position:relative;
+      }
+      .nav-drop-btn::after{content:"";position:absolute;left:0;bottom:0;height:2px;width:0;
+        background:var(--gold);transition:width .3s ease}
+      .nav-drop-btn:hover,.nav-drop-btn[aria-expanded="true"]{color:var(--text)}
+      .nav-drop-btn:hover::after,.nav-drop-btn[aria-expanded="true"]::after{width:100%}
+      .nav-drop-btn svg{width:14px;height:14px;stroke:currentColor;flex:none;transition:transform .25s ease}
+      .nav-drop-btn[aria-expanded="true"] svg{transform:rotate(180deg)}
+      .drop-panel{
+        position:absolute;top:calc(100% + .85rem);right:0;min-width:258px;z-index:70;
+        background:#0B0B16;border:1px solid var(--line);border-radius:14px;padding:.55rem;
+        box-shadow:0 26px 50px rgba(0,0,0,.55);
+        opacity:0;visibility:hidden;transform:translateY(8px);
+        transition:opacity .25s ease,transform .25s ease,visibility .25s;
+      }
+      .nav-drop:hover .drop-panel,.nav-drop:focus-within .drop-panel,.nav-drop.open .drop-panel{
+        opacity:1;visibility:visible;transform:none;
+      }
+      .drop-panel a{
+        display:flex;align-items:center;gap:.55rem;padding:.55rem .8rem;border-radius:9px;
+        font-size:.93rem;color:var(--muted);
+      }
+      .drop-panel a::after{display:none}
+      .drop-panel a:hover{background:var(--surface);color:var(--text)}
+      .drop-panel a.active{color:var(--gold);font-weight:800;background:rgba(212,169,68,.1)}
+      .drop-panel a.active::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--gold);flex:none}
+      .foot-links a.active{color:var(--gold);font-weight:800}
+      @media (max-width:860px){
+        .nav-drop{border-bottom:1px solid var(--line-soft)}
+        .nav-drop-btn{width:100%;justify-content:space-between;min-height:48px;padding:.55rem 0;font-size:.95rem}
+        .nav-drop-btn::after{display:none}
+        .drop-panel{
+          position:static;min-width:0;display:none;opacity:1;visibility:visible;transform:none;
+          background:transparent;border:none;box-shadow:none;padding:0 0 .7rem 1rem;border-radius:0;
+        }
+        .nav-drop.open .drop-panel{display:block}
+        .drop-panel a{padding:.5rem .4rem;min-height:44px;border-bottom:none}
+      }
+
+      /* ---------- Accesibilidad: foco visible y salto al contenido ---------- */
+      :focus-visible{outline:2px solid var(--gold);outline-offset:2px;border-radius:4px}
+      .skip-link{
+        position:fixed;top:.75rem;left:.75rem;z-index:120;
+        background:var(--gold);color:#171106;font-weight:800;font-size:.9rem;
+        padding:.65rem 1.1rem;border-radius:999px;text-decoration:none;
+        transform:translateY(-300%);transition:transform .25s ease;
+      }
+      .skip-link:focus{transform:none}
+      .btn{
+        display:inline-flex;align-items:center;gap:.55rem;text-decoration:none;cursor:pointer;
+        font-family:var(--font-body);font-weight:800;font-size:.95rem;
+        padding:.8rem 1.5rem;border-radius:999px;border:1px solid transparent;
+        transition:transform .25s ease,background .25s ease,color .25s ease,border-color .25s ease;
+      }
+      .btn-gold{background:var(--gold);color:#171106}
+      .btn-gold:hover{background:var(--gold-soft);transform:translateY(-2px)}
+      .btn-ghost{background:transparent;color:var(--text);border-color:rgba(255,255,255,.35)}
+      .btn-ghost:hover{border-color:var(--gold);color:var(--gold-soft);transform:translateY(-2px)}
+      .btn-small{padding:.6rem 1.15rem;font-size:.88rem}
+      .menu-toggle{
+        display:none;margin-left:auto;background:transparent;border:1px solid var(--line-soft);
+        border-radius:10px;width:44px;height:44px;cursor:pointer;align-items:center;justify-content:center;
+      }
+      .menu-toggle svg{width:22px;height:22px;stroke:var(--text)}
+      @media (max-width:860px){
+        .menu-toggle{display:inline-flex}
+        .nav-links{
+          display:none;position:absolute;top:100%;left:0;right:0;flex-direction:column;align-items:stretch;
+          gap:0;background:rgba(11,11,22,.97);backdrop-filter:blur(16px);
+          border-bottom:1px solid var(--line-soft);padding:.5rem 1.25rem 1.1rem;
+        }
+        .nav-links.open{display:flex;animation:menuIn .28s ease}
+        @keyframes menuIn{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:none}}
+        .nav-links a{padding:.8rem 0;border-bottom:1px solid var(--line-soft)}
+        .nav-links a::after{display:none}
+        .nav-links .btn{margin-top:.9rem;justify-content:center}
+        .nav-links a.btn-gold{padding:.85rem 1.15rem;border-bottom:none}
+      }
+
+      /* ---------- Hero ---------- */
+      .hero{position:relative;min-height:100svh;display:flex;align-items:flex-end;overflow:hidden}
+      .hero-media{position:absolute;inset:0;z-index:0}
+      .hero-media img{width:100%;height:112%;object-fit:cover;object-position:center 30%;
+        will-change:transform;animation:kenburns 26s ease-in-out infinite alternate}
+      @keyframes kenburns{from{transform:scale(1)}to{transform:scale(1.07)}}
+      .hero-shade{position:absolute;inset:0;z-index:1;
+        background:linear-gradient(180deg,rgba(11,11,22,.62) 0%,rgba(11,11,22,.28) 34%,rgba(11,11,22,.55) 62%,var(--bg) 100%),
+                   linear-gradient(90deg,rgba(11,11,22,.72) 0%,rgba(11,11,22,.15) 60%)}
+      .hero-content{position:relative;z-index:2;padding:9.5rem 0 5.5rem}
+      @media (max-width:640px){
+        .hero-media img{object-position:74% 22%}
+        .hero-content{padding:8.5rem 0 4.5rem}
+      }
+      .hero-tag{
+        display:inline-flex;align-items:center;gap:.6rem;font-size:.78rem;font-weight:800;
+        letter-spacing:.24em;text-transform:uppercase;color:var(--gold-soft);
+        border:1px solid var(--line);border-radius:999px;padding:.5rem 1rem;
+        background:rgba(11,11,22,.45);backdrop-filter:blur(6px);
+      }
+      .hero-tag .dot{width:7px;height:7px;border-radius:50%;background:var(--green);flex:none;
+        box-shadow:0 0 0 4px rgba(140,192,132,.18)}
+      h1{
+        font-family:var(--font-display);font-weight:700;
+        font-size:clamp(2.5rem,6.2vw,4.6rem);line-height:1.08;letter-spacing:.01em;
+        margin:1.4rem 0 1.2rem;max-width:15ch;text-wrap:balance;
+      }
+      h1 .gold{color:var(--gold)}
+      h1 .green{color:var(--green)}
+      .hero-lead{font-size:clamp(1.05rem,2vw,1.28rem);color:#E9E6DA;max-width:56ch;margin:0 0 2.2rem}
+      .hero-lead strong{color:#fff}
+      .hero-ctas{display:flex;flex-wrap:wrap;gap:.9rem}
+      .hero-points{
+        display:flex;flex-wrap:wrap;gap:.6rem 2.2rem;margin-top:3rem;padding-top:1.6rem;
+        border-top:1px solid rgba(255,255,255,.16);max-width:820px;
+      }
+      .hero-points span{display:inline-flex;align-items:center;gap:.55rem;font-weight:600;font-size:.95rem;color:var(--muted)}
+      .hero-points svg{width:17px;height:17px;stroke:var(--gold);flex:none}
+
+      /* ---------- Secciones ---------- */
+      section{padding:6.5rem 0}
+      .section-head{max-width:720px;margin-bottom:3.2rem}
+      .section-head.center{margin-inline:auto;text-align:center}
+      .kicker{display:inline-flex;align-items:center;gap:.7rem;font-size:.76rem;font-weight:800;
+        letter-spacing:.26em;text-transform:uppercase;color:var(--gold)}
+      .kicker::before{content:"";width:34px;height:1px;background:var(--gold)}
+      .section-head.center .kicker::after{content:"";width:34px;height:1px;background:var(--gold)}
+      h2{font-family:var(--font-display);font-weight:700;font-size:clamp(1.9rem,4vw,2.9rem);
+        line-height:1.15;margin:.9rem 0 1rem;text-wrap:balance}
+      h2 .gold{color:var(--gold)}
+      h2 .green{color:var(--green)}
+      .section-head p{color:var(--muted);font-size:1.08rem;margin:0}
+
+      /* ---------- Servicios ---------- */
+      .services{background:linear-gradient(180deg,var(--bg) 0%,var(--bg-2) 100%)}
+      .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.4rem}
+      @media (max-width:1020px){.grid{grid-template-columns:repeat(2,1fr)}}
+      @media (max-width:640px){.grid{grid-template-columns:1fr}}
+      .card{
+        background:var(--surface);border:1px solid var(--line-soft);border-radius:var(--radius);
+        overflow:hidden;display:flex;flex-direction:column;
+        transition:transform .35s ease,border-color .35s ease,box-shadow .35s ease;
+      }
+      .card:hover{transform:translateY(-6px);border-color:var(--line);
+        box-shadow:0 24px 48px rgba(0,0,0,.45)}
+      .card figure{margin:0;height:210px;overflow:hidden;position:relative}
+      .card figure img{width:100%;height:100%;object-fit:cover;transition:transform .8s ease}
+      .card:hover figure img{transform:scale(1.06)}
+      .card figure::after{content:"";position:absolute;inset:0;
+        background:linear-gradient(180deg,transparent 55%,rgba(20,20,42,.55))}
+      .card-num{
+        position:absolute;top:.9rem;left:.9rem;z-index:2;font-family:var(--font-display);
+        font-weight:700;font-size:.85rem;letter-spacing:.12em;color:#171106;background:var(--gold);
+        padding:.32rem .6rem;border-radius:8px;
+      }
+      .card-body{padding:1.5rem 1.6rem 1.7rem;display:flex;flex-direction:column;gap:.6rem;flex:1}
+      .card h3{font-size:1.22rem;font-weight:800;margin:0;line-height:1.3}
+      .card p{color:var(--muted);margin:0;font-size:.98rem;flex:1}
+      .card ul{list-style:none;margin:.4rem 0 0;padding:0;display:flex;flex-wrap:wrap;gap:.45rem}
+      .card ul li{font-size:.8rem;font-weight:700;color:var(--gold-soft);
+        border:1px solid var(--line);border-radius:999px;padding:.28rem .7rem}
+
+      /* ---------- Impacto / Por qué elegirnos ---------- */
+      .why{background:var(--bg-2);border-block:1px solid var(--line-soft);position:relative;overflow:hidden}
+      .why::before{
+        content:"Θ";position:absolute;right:-4rem;top:50%;transform:translateY(-50%);
+        font-family:var(--font-display);font-size:34rem;line-height:1;color:rgba(212,169,68,.045);
+        pointer-events:none;user-select:none;
+      }
+      .why-grid{display:grid;grid-template-columns:1.05fr 1fr;gap:3.5rem;align-items:center;position:relative}
+      @media (max-width:920px){.why-grid{grid-template-columns:1fr;gap:2.4rem}}
+      .why-photo{border-radius:var(--radius);overflow:hidden;position:relative;
+        border:1px solid var(--line-soft);box-shadow:0 30px 60px rgba(0,0,0,.5)}
+      .why-photo img{width:100%;height:100%;min-height:340px;object-fit:cover}
+      .why-photo figcaption{
+        position:absolute;left:1rem;right:1rem;bottom:1rem;margin:0;
+        background:rgba(11,11,22,.82);backdrop-filter:blur(8px);border:1px solid var(--line);
+        border-radius:12px;padding:.9rem 1.1rem;font-size:.92rem;font-weight:600;color:#EFEAD8;
+      }
+      .why-photo figcaption strong{color:var(--gold-soft)}
+      .why-list{display:grid;gap:1.1rem;margin-top:2rem}
+      .why-item{display:flex;gap:1rem;align-items:flex-start}
+      .why-icon{
+        flex:none;width:46px;height:46px;border-radius:12px;display:grid;place-items:center;
+        background:rgba(212,169,68,.12);border:1px solid var(--line);
+      }
+      .why-icon svg{width:22px;height:22px;stroke:var(--gold)}
+      .why-icon.green{background:rgba(140,192,132,.12);border-color:rgba(140,192,132,.3)}
+      .why-icon.green svg{stroke:var(--green)}
+      .why-item h3{margin:.15rem 0 .3rem;font-size:1.08rem;font-weight:800}
+      .why-item p{margin:0;color:var(--muted);font-size:.97rem}
+
+      /* ---------- Proceso ---------- */
+      .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:1.4rem;counter-reset:paso}
+      @media (max-width:1020px){.steps{grid-template-columns:repeat(2,1fr)}}
+      @media (max-width:560px){.steps{grid-template-columns:1fr}}
+      .step{border-top:2px solid var(--line);padding-top:1.3rem;position:relative}
+      .step::before{
+        counter-increment:paso;content:"0" counter(paso);
+        font-family:var(--font-display);font-weight:700;font-size:2rem;color:var(--gold);
+        display:block;line-height:1;margin-bottom:.7rem;
+      }
+      .step h3{margin:0 0 .45rem;font-size:1.08rem;font-weight:800}
+      .step p{margin:0;color:var(--muted);font-size:.96rem}
+
+      /* ---------- Clientes ---------- */
+      .clients{background:var(--bg-2);border-block:1px solid var(--line-soft);padding:4.5rem 0}
+      .clients-row{display:flex;flex-wrap:wrap;align-items:center;gap:1rem 2.6rem;justify-content:space-between}
+      .clients h2{font-size:clamp(1.4rem,2.6vw,1.9rem);margin:0;max-width:22ch}
+      .clients ul{list-style:none;display:flex;flex-wrap:wrap;gap:.6rem;margin:0;padding:0}
+      .clients li{font-weight:700;font-size:.92rem;color:var(--muted);
+        border:1px solid var(--line-soft);border-radius:999px;padding:.55rem 1.1rem;background:var(--surface)}
+
+      /* ---------- Contacto ---------- */
+      .contact-grid{display:grid;grid-template-columns:1fr 1.15fr;gap:3rem;align-items:start}
+      @media (max-width:920px){.contact-grid{grid-template-columns:1fr;gap:2.2rem}}
+      .contact-data{display:grid;gap:1rem}
+      .data-item{
+        display:flex;gap:1rem;align-items:center;background:var(--surface);
+        border:1px solid var(--line-soft);border-radius:14px;padding:1.15rem 1.3rem;
+        text-decoration:none;transition:border-color .3s ease,transform .3s ease;
+      }
+      a.data-item:hover{border-color:var(--line);transform:translateY(-2px)}
+      .data-icon{flex:none;width:44px;height:44px;border-radius:50%;display:grid;place-items:center;
+        background:rgba(212,169,68,.12);border:1px solid var(--line)}
+      .data-icon svg{width:20px;height:20px;stroke:var(--gold)}
+      .data-item small{display:block;color:var(--muted-2);font-weight:700;font-size:.74rem;
+        letter-spacing:.16em;text-transform:uppercase}
+      .data-item strong{font-size:1.05rem}
+      form{
+        background:var(--surface);border:1px solid var(--line-soft);border-radius:var(--radius);
+        padding:1.8rem;display:grid;gap:1rem;
+      }
+      form h3{margin:0;font-size:1.2rem;font-weight:800}
+      form p{margin:0;color:var(--muted);font-size:.95rem}
+      .field{display:grid;gap:.4rem}
+      .field label{font-size:.85rem;font-weight:700;color:var(--muted)}
+      .field input,.field select,.field textarea{
+        width:100%;background:var(--bg-2);border:1px solid var(--line-soft);border-radius:10px;
+        color:var(--text);font-family:var(--font-body);font-size:1rem;padding:.75rem .9rem;
+      }
+      .field textarea{resize:vertical;min-height:110px}
+      .field input:focus,.field select:focus,.field textarea:focus{
+        outline:2px solid var(--gold);outline-offset:1px;border-color:transparent}
+      .form-row{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+      @media (max-width:560px){.form-row{grid-template-columns:1fr}}
+      form .btn{justify-content:center}
+
+      /* ---------- Pie ---------- */
+      footer{background:#08080F;border-top:1px solid var(--line-soft);padding:4rem 0 2rem}
+      .foot-grid{display:grid;grid-template-columns:1.35fr .95fr 1.05fr .95fr;gap:2.5rem}
+      @media (max-width:1020px){.foot-grid{grid-template-columns:1fr 1fr}}
+      @media (max-width:860px){.foot-grid{grid-template-columns:1fr;gap:2rem}}
+      .foot-brand p{color:var(--muted);font-size:.95rem;max-width:38ch;margin:.9rem 0 0}
+      footer h4{font-size:.8rem;font-weight:800;letter-spacing:.2em;text-transform:uppercase;
+        color:var(--gold);margin:0 0 1rem}
+      .foot-links{list-style:none;margin:0;padding:0;display:grid;gap:.55rem}
+      .foot-links a,.foot-links span{color:var(--muted);text-decoration:none;font-size:.96rem}
+      .foot-links a:hover{color:var(--gold-soft)}
+      .foot-bottom{
+        margin-top:3rem;padding-top:1.4rem;border-top:1px solid var(--line-soft);
+        display:flex;flex-wrap:wrap;gap:.6rem 2rem;justify-content:space-between;
+        color:var(--muted-2);font-size:.86rem;
+      }
+
+      /* ---------- Animación al hacer scroll ---------- */
+      .reveal{opacity:0;transform:translateY(26px);transition:opacity .8s ease,transform .8s ease}
+      .reveal.in{opacity:1;transform:none}
+      .reveal.d1{transition-delay:.08s}.reveal.d2{transition-delay:.16s}
+      .reveal.d3{transition-delay:.24s}.reveal.d4{transition-delay:.32s}
+      .reveal.d5{transition-delay:.4s}
+      @media (prefers-reduced-motion:reduce){
+        html{scroll-behavior:auto}
+        .reveal{opacity:1;transform:none;transition:none}
+        .hero-media img{animation:none}
+        *{transition-duration:.01ms !important}
+      }
+
+      /* ---------- Capa premium: motion design y 3D ---------- */
+      .scroll-progress{position:fixed;top:0;left:0;right:0;height:3px;z-index:90;
+        background:linear-gradient(90deg,var(--green-deep),var(--gold) 55%,var(--gold-soft));
+        transform:scaleX(0);transform-origin:0 50%;pointer-events:none}
+      header.scrolled{box-shadow:0 14px 34px rgba(0,0,0,.38)}
+      section[id]{scroll-margin-top:84px}
+
+      .hero-media{inset:-14% 0 0 0;will-change:transform}
+      .hero-media img{height:100%}
+      .hero-canvas{position:absolute;inset:0;z-index:2;width:100%;height:100%;display:block;pointer-events:none;
+        -webkit-mask-image:linear-gradient(180deg,#000 50%,transparent 96%);
+        mask-image:linear-gradient(180deg,#000 50%,transparent 96%)}
+      .hero-content{z-index:3}
+
+      @keyframes riseIn{from{opacity:0;transform:translateY(36px)}to{opacity:1;transform:none}}
+      .hero-tag{animation:riseIn .9s cubic-bezier(.22,1,.36,1) .1s both}
+      .hero-lead{animation:riseIn 1s cubic-bezier(.22,1,.36,1) .5s both}
+      .hero-ctas{animation:riseIn 1s cubic-bezier(.22,1,.36,1) .68s both}
+      .hero-points{animation:riseIn 1s cubic-bezier(.22,1,.36,1) .86s both}
+      h1 .w-mask{display:inline-block;overflow:hidden;vertical-align:bottom}
+      h1 .w-in{display:inline-block;transform:translateY(118%);animation:wordUp 1.05s cubic-bezier(.22,1,.36,1) both}
+      @keyframes wordUp{to{transform:translateY(0)}}
+
+      .reveal{transition:opacity .95s cubic-bezier(.22,1,.36,1),transform .95s cubic-bezier(.22,1,.36,1),filter .95s ease,clip-path 1.15s cubic-bezier(.22,1,.36,1)}
+      [data-reveal="blur"]{filter:blur(16px)}
+      [data-reveal="blur"].in{filter:blur(0)}
+      [data-reveal="left"]{transform:translateX(-52px)}
+      [data-reveal="right"]{transform:translateX(52px)}
+      [data-reveal="zoom"]{transform:scale(.93) translateY(22px)}
+      [data-reveal="clip"]{clip-path:inset(0 0 100% 0)}
+      [data-reveal="clip"].in{clip-path:inset(0 0 0 0)}
+      @media (max-width:640px){
+        [data-reveal="left"]{transform:translateX(-26px)}
+        [data-reveal="right"]{transform:translateX(26px)}
+      }
+
+      .step::after{content:"";position:absolute;top:-2px;left:0;height:2px;width:100%;
+        background:linear-gradient(90deg,var(--gold),rgba(212,169,68,.12));
+        transform:scaleX(0);transform-origin:0 50%;
+        transition:transform 1.15s cubic-bezier(.22,1,.36,1) .25s}
+      .step.in::after{transform:scaleX(1)}
+
+      .card{position:relative;transform-style:preserve-3d}
+      .card::before{content:"";position:absolute;inset:0;z-index:3;pointer-events:none;opacity:0;
+        transition:opacity .45s ease;
+        background:radial-gradient(540px circle at var(--mx,50%) var(--my,50%),rgba(212,169,68,.17),transparent 46%)}
+      .card:hover::before{opacity:1}
+
+      .btn{position:relative;overflow:hidden}
+      .btn::after{content:"";position:absolute;top:-25%;bottom:-25%;left:-90%;width:45%;z-index:1;
+        background:linear-gradient(105deg,transparent,rgba(255,255,255,.45),transparent);
+        transform:skewX(-20deg);transition:left .65s ease;pointer-events:none}
+      .btn:hover::after{left:145%}
+
+      .field input:focus,.field select:focus,.field textarea:focus{box-shadow:0 0 0 4px rgba(212,169,68,.16)}
+      .data-icon{transition:transform .35s ease}
+      a.data-item:hover .data-icon{transform:scale(1.1) rotate(-6deg)}
+      .why-icon{transition:transform .35s ease}
+      .why-item:hover .why-icon{transform:translateY(-3px) scale(1.07)}
+      .why::before{transform:translateY(calc(-50% + var(--py,0px)))}
+      .why-photo img{will-change:transform}
+      .clients li{transition:border-color .3s ease,color .3s ease,transform .3s ease}
+      .clients li:hover{border-color:var(--line);color:var(--gold-soft);transform:translateY(-3px)}
+
+      @media (prefers-reduced-motion:reduce){
+        .hero-tag,.hero-lead,.hero-ctas,.hero-points,h1 .w-in{animation:none !important}
+        h1 .w-in{transform:none}
+        .scroll-progress{display:none}
+        .hero-canvas{-webkit-mask-image:none;mask-image:none}
+      }
+
+      /* ---------- Optimización móvil máxima ---------- */
+      a,button{touch-action:manipulation;-webkit-tap-highlight-color:transparent}
+      @media (hover:none){
+        .card:hover{transform:none;box-shadow:none}
+        .card:hover figure img{transform:none}
+        .btn:hover{transform:none}
+      }
+      @media (max-width:700px){
+        section{padding:4.2rem 0}
+        .clients{padding:3.4rem 0}
+        .section-head{margin-bottom:2.2rem}
+        h1{font-size:clamp(2.1rem,10.6vw,2.65rem);margin:1.15rem 0 1rem}
+        h2{font-size:clamp(1.65rem,7.4vw,2rem)}
+        .hero{min-height:100svh}
+        .hero-content{padding:7.4rem 0 3.4rem}
+        .hero-tag{font-size:.68rem;letter-spacing:.18em;padding:.45rem .85rem}
+        .hero-lead{font-size:1.02rem;margin-bottom:1.7rem}
+        .hero-ctas{gap:.7rem}
+        .hero-ctas .btn{flex:1 1 100%;justify-content:center;min-height:54px;font-size:1rem}
+        .hero-points{gap:.5rem 1.3rem;margin-top:2.1rem;padding-top:1.3rem}
+        .hero-points span{font-size:.88rem}
+        .hero-media img{animation:none}
+        .btn{min-height:48px}
+        .menu-toggle{width:48px;height:48px}
+        .nav-links a{min-height:48px;display:flex;align-items:center;padding:.55rem 0}
+        .nav-links .btn{min-height:52px;justify-content:center}
+        .brand img{width:42px;height:42px}
+        .brand-name{font-size:1.02rem}
+        .brand-sub{font-size:.54rem}
+        .card figure{height:190px}
+        .card-body{padding:1.25rem 1.3rem 1.4rem}
+        .why::before{font-size:20rem;right:-2rem}
+        .why-photo img{min-height:230px}
+        .why-photo figcaption{position:static;border:none;border-top:1px solid var(--line);border-radius:0}
+        form{padding:1.3rem}
+        .field input,.field select,.field textarea{font-size:16px;min-height:50px}
+        .field textarea{min-height:110px}
+        .data-item{min-height:58px;padding:1rem 1.1rem}
+        .data-item strong{font-size:1rem;overflow-wrap:anywhere}
+        .step::before{font-size:1.7rem}
+        .foot-bottom{flex-direction:column;gap:.35rem}
+        footer{padding:3rem 0 1.6rem}
+      }
+      @media (prefers-reduced-motion:reduce){
+        .hero-media img{animation:none}
+      }
+    .theta-logo{display:inline-flex;align-items:center;justify-content:center;border-radius:50%;background:#10101C;color:#C8A24B;font-family:Georgia,'Times New Roman',serif;font-weight:700;line-height:1}.brand .theta-logo{width:46px;height:46px;font-size:28px;flex:none}</style>
+  <style>
+/* ===== THESMOS GitHub Pages · optimización móvil ===== */
+img{max-width:100%;height:auto;display:block}
+h1{font-size:clamp(1.7rem,5vw + 1rem,3rem)}
+h2{font-size:clamp(1.3rem,3.6vw + .8rem,2rem)}
+.btn{min-height:44px}
+html,body{max-width:100%;overflow-x:clip}
+@media (max-width:640px){
+  .contact-data,
+  .contact-grid,
+  .data-icon,
+  .field,
+  .foot-grid,
+  .foot-links,
+  .form-row,
+  .grid,
+  .steps,
+  .why-grid,
+  .why-icon,
+  .why-list{grid-template-columns:1fr !important}
+  .wrap{padding-left:1.25rem;padding-right:1.25rem}
+  section{padding-top:2.75rem;padding-bottom:2.75rem}
+}
+</style>
+</head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+    <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+    <header id="header">
+      <div class="wrap nav">
+        <a class="brand" href="#inicio" aria-label="THESMOS — inicio">
+          <span class="theta-logo theta-nav" role="img" aria-label="Logotipo de THESMOS">Θ</span>
+          <span>
+            <span class="brand-name">THESMOS</span>
+            <span class="brand-sub">Asociación para la Inserción Sociolaboral</span>
+          </span>
+        </a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="navLinks">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+        <nav class="nav-links" id="navLinks" aria-label="Navegación principal">
+          <a href="#servicios">Servicios</a>
+          <a href="#por-que">Por qué elegirnos</a>
+          <a href="#proceso">Cómo trabajamos</a>
+          <a href="#contacto">Contacto</a>
+          <div class="nav-drop" id="navDrop">
+            <button class="nav-drop-btn" id="servicesToggle" type="button" aria-haspopup="true" aria-expanded="false" aria-controls="servicesMenu">
+              Nuestros servicios
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="drop-panel" id="servicesMenu" role="menu" aria-label="Nuestros servicios">
+              <a role="menuitem" href="https://samudelgado.github.io/thesmos-web-principal/">THESMOS · Inicio</a>
+              <a role="menuitem" href="https://samudelgado.github.io/thesmos-servicios-auxiliares/">Servicios Auxiliares</a>
+              <a role="menuitem" href="https://samudelgado.github.io/thesmos-limpieza/">Limpieza</a>
+              <a role="menuitem" class="active" aria-current="page" href="https://samudelgado.github.io/thesmos-jardineria/">Jardinería</a>
+              <a role="menuitem" href="https://samudelgado.github.io/thesmos-mantenimiento/">Mantenimiento</a>
+              <a role="menuitem" href="https://samudelgado.github.io/thesmos-eventos/">Eventos</a>
+              <a role="menuitem" href="https://samudelgado.github.io/thesmos-comercio/">Comercio</a>
+              <a role="menuitem" href="https://samudelgado.github.io/thesmos-hosteleria/">Hostelería</a>
+              <a role="menuitem" href="https://samudelgado.github.io/thesmos-tecnologia/">Tecnología</a>
+            </div>
+          </div>
+          <a class="btn btn-gold btn-small" href="https://wa.me/34604541488?text=Hola%2C%20quiero%20pedir%20un%20presupuesto" target="_blank" rel="noopener">Pedir presupuesto</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="contenido">
+      <!-- HERO -->
+      <section class="hero" id="inicio">
+        <div class="hero-media">
+          <img id="heroImg" src="assets/foto-2.jpg" sizes="100vw" width="1600" height="1066" alt="Jardinero de THESMOS recortando un seto con tijeras de podar en un jardín verde y cuidado" fetchpriority="high" decoding="async" />
+        </div>
+        <div class="hero-shade"></div>
+        <canvas class="hero-canvas" id="heroCanvas" aria-hidden="true"></canvas>
+        <div class="wrap hero-content">
+          <span class="hero-tag"><span class="dot"></span>Jardinería y Medio Ambiente · España</span>
+          <h1>Jardines que <span class="gold">florecen</span>, personas que <span class="green">crecen</span></h1>
+          <p class="hero-lead">
+            Diseñamos, construimos y mantenemos espacios verdes con acabado profesional.
+            Y lo hacemos creando <strong>empleo digno para personas en situación o riesgo de
+            exclusión social</strong>: cada jardín que cuidamos es también una oportunidad laboral real.
+          </p>
+          <div class="hero-ctas">
+            <a class="btn btn-gold" href="#servicios">Ver nuestros servicios</a>
+            <a class="btn btn-ghost" href="https://wa.me/34604541488?text=Hola%2C%20quiero%20pedir%20un%20presupuesto" target="_blank" rel="noopener">Pedir presupuesto sin compromiso</a>
+          </div>
+          <div class="hero-points">
+            <span><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Asociación sin ánimo de lucro</span>
+            <span><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Equipo profesional y supervisado</span>
+            <span><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Impacto social en cada contrato</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- SERVICIOS -->
+      <section class="services" id="servicios">
+        <div class="wrap">
+          <div class="section-head reveal" data-reveal="blur">
+            <span class="kicker">Nuestros servicios</span>
+            <h2>Todo el ciclo de tu <span class="green">espacio verde</span>, en un solo equipo</h2>
+            <p>Desde la primera idea hasta el mantenimiento de cada temporada. Trabajamos para comunidades de propietarios, empresas, administraciones públicas y particulares en toda España.</p>
+          </div>
+          <div class="grid">
+            <article class="card reveal">
+              <figure>
+                <span class="card-num">01</span>
+                <img src="assets/foto-3.jpg" width="1100" height="733" alt="Dos jardineros plantando un parterre con plantones durante la construcción de un jardín nuevo" loading="lazy" decoding="async" />
+              </figure>
+              <div class="card-body">
+                <h3>Diseño y construcción de jardines</h3>
+                <p>Convertimos patios, parcelas y zonas comunes en jardines con identidad propia: estudio del espacio, elección de especies adaptadas al clima mediterráneo y ejecución completa de la obra.</p>
+                <ul><li>Diseño paisajístico</li><li>Plantación</li><li>Caminos y riego</li></ul>
+              </div>
+            </article>
+
+            <article class="card reveal d1">
+              <figure>
+                <span class="card-num">02</span>
+                <img src="assets/foto-4.jpg" width="800" height="533" alt="Jardinero segando el césped de un jardín con un cortacésped durante una visita de mantenimiento" loading="lazy" decoding="async" />
+              </figure>
+              <div class="card-body">
+                <h3>Conservación y mantenimiento</h3>
+                <p>Planes de mantenimiento periódicos para que tus zonas verdes luzcan impecables todo el año: siega, recorte de setos, abonado, control de riego y limpieza de hojas y residuos.</p>
+                <ul><li>Visitas programadas</li><li>Comunidades</li><li>Empresas</li></ul>
+              </div>
+            </article>
+
+            <article class="card reveal d2">
+              <figure>
+                <span class="card-num">03</span>
+                <img src="assets/foto-1.jpg" width="1100" height="614" alt="Operario con equipo de protección desbrozando una parcela cubierta de vegetación alta" loading="lazy" decoding="async" />
+              </figure>
+              <div class="card-body">
+                <h3>Desbroce y limpieza de parcelas</h3>
+                <p>Recuperamos solares y parcelas abandonadas: desbroce mecanizado y manual, retirada de vegetación y residuos, y cumplimiento de las ordenanzas municipales de limpieza y prevención de incendios.</p>
+                <ul><li>Solares urbanos</li><li>Fincas rústicas</li><li>Retirada de restos</li></ul>
+              </div>
+            </article>
+
+            <article class="card reveal">
+              <figure>
+                <span class="card-num">04</span>
+                <img src="assets/foto-2.jpg" width="1100" height="525" alt="Podador profesional asegurado con arnés trabajando en altura sobre un árbol de gran porte" loading="lazy" decoding="async" />
+              </figure>
+              <div class="card-body">
+                <h3>Poda</h3>
+                <p>Poda de formación, mantenimiento y seguridad en árboles y palmeras, también en altura. Trabajamos con criterios técnicos que respetan la salud del ejemplar y la seguridad del entorno.</p>
+                <ul><li>Poda en altura</li><li>Palmeras</li><li>Tala controlada</li></ul>
+              </div>
+            </article>
+
+            <article class="card reveal d1">
+              <figure>
+                <span class="card-num">05</span>
+                <img src="assets/foto-3.jpg" width="1200" height="675" alt="Varias personas plantando árboles jóvenes durante una jornada de reforestación en un bosque" loading="lazy" decoding="async" />
+              </figure>
+              <div class="card-body">
+                <h3>Reforestación y recuperación de espacios</h3>
+                <p>Devolvemos la vida a espacios degradados: reforestación con especies autóctonas, restauración de taludes y márgenes, y acondicionamiento de áreas naturales para su disfrute vecinal.</p>
+                <ul><li>Especies autóctonas</li><li>Espacios degradados</li><li>Taludes y riberas</li></ul>
+              </div>
+            </article>
+
+            <article class="card reveal d2">
+              <figure>
+                <span class="card-num">06</span>
+                <img src="assets/foto-4.jpg" width="1100" height="1100" alt="Vecinos trabajando en bancales de madera de un huerto urbano comunitario" loading="lazy" decoding="async" />
+              </figure>
+              <div class="card-body">
+                <h3>Huertos urbanos y economía circular</h3>
+                <p>Creación y dinamización de huertos urbanos y comunitarios. Los restos de poda y siega se compostan y vuelven al jardín: cerramos el círculo y reducimos residuos.</p>
+                <ul><li>Huertos comunitarios</li><li>Compostaje</li><li>Talleres vecinales</li></ul>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- POR QUÉ ELEGIRNOS -->
+      <section class="why" id="por-que">
+        <div class="wrap why-grid">
+          <figure class="why-photo reveal" data-reveal="clip">
+            <img src="assets/foto-1.jpg" width="1200" height="675" alt="Equipo plantando árboles jóvenes en una ladera durante un proyecto de reforestación" loading="lazy" decoding="async" />
+            <figcaption><strong>Trabajo real, impacto real.</strong> Detrás de cada servicio hay personas construyendo su futuro laboral.</figcaption>
+          </figure>
+          <div class="reveal d1" data-reveal="right">
+            <span class="kicker">Por qué elegirnos</span>
+            <h2>Profesionalidad con <span class="gold">propósito</span></h2>
+            <p style="color:var(--muted);margin:0">
+              THESMOS es una asociación sin ánimo de lucro. Nuestros equipos de jardinería
+              trabajan con los mismos estándares que cualquier empresa del sector — planificación,
+              supervisión técnica y compromiso de resultado — con una diferencia que nos define:
+              el beneficio de nuestro trabajo se reinvierte en crear empleo.
+            </p>
+            <div class="why-list">
+              <div class="why-item">
+                <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-6.5 8-6.5s8 2.5 8 6.5"/></svg></div>
+                <div>
+                  <h3>Empleo digno e inserción real</h3>
+                  <p>Contratamos y formamos a personas en situación o riesgo de exclusión social, acompañándolas en su itinerario hacia el empleo ordinario.</p>
+                </div>
+              </div>
+              <div class="why-item">
+                <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c5-2 8-6.5 8-12V5l-8-3-8 3v5c0 5.5 3 10 8 12Z"/><path d="m9 11.5 2 2 4-4.5"/></svg></div>
+                <div>
+                  <h3>Estándar profesional garantizado</h3>
+                  <p>Personal supervisado, maquinaria adecuada, equipos de protección y parte de trabajo en cada visita. Si algo no queda bien, volvemos.</p>
+                </div>
+              </div>
+              <div class="why-item">
+                <div class="why-icon green"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22V9"/><path d="M12 9C12 5 9 2 4 2c0 5 3 7 8 7Z"/><path d="M12 13c0-4 3-7 8-7 0 5-3 7-8 7Z"/></svg></div>
+                <div>
+                  <h3>Criterio medioambiental</h3>
+                  <p>Especies adaptadas al clima mediterráneo, gestión responsable del agua y compostaje de los restos vegetales que generamos.</p>
+                </div>
+              </div>
+              <div class="why-item">
+                <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 8.6a5.5 5.5 0 0 0-9.8-3.4L12 6.2l1-1a5.5 5.5 0 1 1-9.8 3.4L12 17.4Z" transform="translate(0 1)"/></svg></div>
+                <div>
+                  <h3>Tu contrato suma</h3>
+                  <p>Al contratarnos, tu comunidad o empresa cumple además un objetivo social: cada hora de jardinería financia formación y empleo en toda España.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROCESO -->
+      <section id="proceso">
+        <div class="wrap">
+          <div class="section-head reveal" data-reveal="zoom">
+            <span class="kicker">Cómo trabajamos</span>
+            <h2>Así de sencillo es <span class="green">empezar</span></h2>
+          </div>
+          <div class="steps">
+            <div class="step reveal">
+              <h3>Visita y valoración</h3>
+              <p>Visitamos tu jardín, parcela o zona común sin coste y escuchamos qué necesitas.</p>
+            </div>
+            <div class="step reveal d1">
+              <h3>Propuesta clara</h3>
+              <p>Recibes un presupuesto detallado, sin letra pequeña y sin compromiso.</p>
+            </div>
+            <div class="step reveal d2">
+              <h3>Ejecución supervisada</h3>
+              <p>Nuestro equipo realiza el trabajo con supervisión técnica y parte de cada actuación.</p>
+            </div>
+            <div class="step reveal d3">
+              <h3>Seguimiento continuo</h3>
+              <p>En mantenimientos, visitas periódicas y un canal directo para cualquier incidencia.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CLIENTES -->
+      <div class="clients">
+        <div class="wrap clients-row reveal" data-reveal="zoom">
+          <h2>Trabajamos para quienes cuidan su entorno</h2>
+          <ul>
+            <li>Comunidades de propietarios</li>
+            <li>Empresas y oficinas</li>
+            <li>Ayuntamientos y entidades públicas</li>
+            <li>Colegios y centros sociales</li>
+            <li>Particulares</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- CONTACTO -->
+      <section id="contacto">
+        <div class="wrap">
+          <div class="section-head reveal" data-reveal="blur">
+            <span class="kicker">Contacto</span>
+            <h2>Pide tu presupuesto <span class="gold">sin compromiso</span></h2>
+            <p>Cuéntanos qué necesita tu jardín o tu parcela y te respondemos con una propuesta ajustada a tu caso.</p>
+          </div>
+          <div class="contact-grid">
+            <div class="contact-data reveal">
+              <a class="data-item" href="mailto:asociacionthesmos@gmail.com">
+                <span class="data-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span>
+                <span><small>Correo electrónico</small><strong>asociacionthesmos@gmail.com</strong></span>
+              </a>
+              <a class="data-item" href="https://wa.me/34604541488" target="_blank" rel="noopener">
+                <span class="data-icon"><svg viewBox="0 0 24 24" fill="currentColor" stroke="none" style="color:var(--gold)" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg></span>
+                <span><small>WhatsApp</small><strong>+34 604 54 14 88</strong></span>
+              </a>
+              <div class="data-item">
+                <span class="data-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg></span>
+                <span><small>Ámbito de trabajo</small><strong>Toda España · ámbito nacional</strong></span>
+              </div>
+            </div>
+            <form id="quoteForm" class="reveal d1">
+              <h3>Solicita una visita gratuita</h3>
+              <p>Rellena el formulario y se abrirá tu correo con el mensaje listo para enviar.</p>
+              <div class="form-row">
+                <div class="field">
+                  <label for="f-nombre">Nombre</label>
+                  <input id="f-nombre" name="nombre" type="text" autocomplete="name" required placeholder="Tu nombre" />
+                </div>
+                <div class="field">
+                  <label for="f-tel">Teléfono o correo</label>
+                  <input id="f-tel" name="contacto" type="text" autocomplete="tel" required placeholder="Para poder responderte" />
+                </div>
+              </div>
+              <div class="field">
+                <label for="f-servicio">Servicio que necesitas</label>
+                <select id="f-servicio" name="servicio">
+                  <option>Diseño y construcción de jardines</option>
+                  <option>Conservación y mantenimiento</option>
+                  <option>Desbroce y limpieza de parcelas</option>
+                  <option>Poda</option>
+                  <option>Reforestación y recuperación de espacios</option>
+                  <option>Huertos urbanos y economía circular</option>
+                  <option>Otro / no lo tengo claro</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="f-msg">Cuéntanos tu caso</label>
+                <textarea id="f-msg" name="mensaje" placeholder="Ej.: comunidad de 40 viviendas, necesitamos mantenimiento mensual del jardín y poda anual de 6 árboles."></textarea>
+              </div>
+              <button class="btn btn-gold" type="submit">Enviar solicitud por correo</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="wrap">
+        <div class="foot-grid">
+          <div class="foot-brand">
+            <a class="brand" href="#inicio">
+              <img loading="lazy" decoding="async" src="assets/foto-2.jpg" alt="" width="46" height="46" />
+              <span>
+                <span class="brand-name">THESMOS</span>
+                <span class="brand-sub">Asociación para la Inserción Sociolaboral</span>
+              </span>
+            </a>
+            <p>Entidad sin ánimo de lucro. Creamos empleo digno para personas en situación o riesgo de exclusión social a través de servicios profesionales de jardinería y medio ambiente.</p>
+          </div>
+          <div>
+            <h4>Servicios</h4>
+            <ul class="foot-links">
+              <li><a href="#servicios">Diseño y construcción de jardines</a></li>
+              <li><a href="#servicios">Conservación y mantenimiento</a></li>
+              <li><a href="#servicios">Desbroce y limpieza de parcelas</a></li>
+              <li><a href="#servicios">Poda</a></li>
+              <li><a href="#servicios">Reforestación y recuperación</a></li>
+              <li><a href="#servicios">Huertos urbanos</a></li>
+            </ul>
+          </div>
+          <nav aria-label="Nuestros servicios">
+            <h4>Nuestros servicios</h4>
+            <ul class="foot-links">
+              <li><a href="https://samudelgado.github.io/thesmos-web-principal/">THESMOS · Inicio</a></li>
+              <li><a href="https://samudelgado.github.io/thesmos-servicios-auxiliares/">Servicios Auxiliares</a></li>
+              <li><a href="https://samudelgado.github.io/thesmos-limpieza/">Limpieza</a></li>
+              <li><a href="https://samudelgado.github.io/thesmos-jardineria/" class="active" aria-current="page">Jardinería</a></li>
+              <li><a href="https://samudelgado.github.io/thesmos-mantenimiento/">Mantenimiento</a></li>
+              <li><a href="https://samudelgado.github.io/thesmos-eventos/">Eventos</a></li>
+              <li><a href="https://samudelgado.github.io/thesmos-comercio/">Comercio</a></li>
+              <li><a href="https://samudelgado.github.io/thesmos-hosteleria/">Hostelería</a></li>
+              <li><a href="https://samudelgado.github.io/thesmos-tecnologia/">Tecnología</a></li>
+            </ul>
+          </nav>
+          <div>
+            <h4>THESMOS</h4>
+            <ul class="foot-links">
+              <li><a href="#por-que">Por qué elegirnos</a></li>
+              <li><a href="#proceso">Cómo trabajamos</a></li>
+              <li><a href="#contacto">Contacto</a></li>
+              <li><span>España · ámbito nacional</span></li>
+              <li><a href="mailto:asociacionthesmos@gmail.com">asociacionthesmos@gmail.com</a></li>
+              <li><a href="https://wa.me/34604541488" target="_blank" rel="noopener">+34 604 54 14 88</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="foot-bottom">
+          <span>© 2026 Asociación THESMOS para la Inserción Sociolaboral</span>
+          <span>Jardinería y Medio Ambiente · España</span>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      (function () {
+        var header = document.getElementById('header');
+        var toggle = document.getElementById('menuToggle');
+        var links = document.getElementById('navLinks');
+        var heroImg = document.getElementById('heroImg');
+        var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+        function onScroll() {
+          header.classList.toggle('scrolled', window.scrollY > 30);
+          if (!reduceMotion && heroImg) {
+            var y = Math.min(window.scrollY, window.innerHeight);
+            heroImg.style.transform = 'translateY(' + y * 0.18 + 'px)';
+          }
+        }
+        window.addEventListener('scroll', onScroll, { passive: true });
+        onScroll();
+
+        toggle.addEventListener('click', function () {
+          var open = links.classList.toggle('open');
+          toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+          toggle.setAttribute('aria-label', open ? 'Cerrar menú' : 'Abrir menú');
+        });
+        links.addEventListener('click', function (e) {
+          if (e.target.closest('a')) {
+            links.classList.remove('open');
+            toggle.setAttribute('aria-expanded', 'false');
+          }
+        });
+
+        /* Desplegable «Nuestros servicios»: clic/toque y teclado */
+        var navDrop = document.getElementById('navDrop');
+        var dropBtn = document.getElementById('servicesToggle');
+        if (navDrop && dropBtn) {
+          function closeDrop() {
+            navDrop.classList.remove('open');
+            dropBtn.setAttribute('aria-expanded', 'false');
+          }
+          dropBtn.addEventListener('click', function (e) {
+            e.stopPropagation();
+            var open = navDrop.classList.toggle('open');
+            dropBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+          });
+          document.addEventListener('click', function (e) {
+            if (!navDrop.contains(e.target)) closeDrop();
+          });
+          document.addEventListener('keydown', function (e) {
+            if (e.key === 'Escape') { closeDrop(); dropBtn.focus(); }
+          });
+          navDrop.addEventListener('click', function (e) {
+            if (e.target.closest('.drop-panel a')) closeDrop();
+          });
+        }
+
+        var revealEls = document.querySelectorAll('.reveal');
+        function revealAll() {
+          revealEls.forEach(function (el) { el.classList.add('in'); });
+        }
+        if ('IntersectionObserver' in window && !reduceMotion) {
+          var io = new IntersectionObserver(function (entries) {
+            entries.forEach(function (entry) {
+              if (entry.isIntersecting) {
+                entry.target.classList.add('in');
+                io.unobserve(entry.target);
+              }
+            });
+          }, { threshold: 0.05, rootMargin: '0px 0px 12% 0px' });
+          revealEls.forEach(function (el) { io.observe(el); });
+          /* Red de seguridad: si el observador no llega a dispararse
+             (capturas de página completa, navegadores embebidos),
+             el contenido se muestra igualmente. */
+          setTimeout(revealAll, 2500);
+        } else {
+          revealAll();
+        }
+
+        document.getElementById('quoteForm').addEventListener('submit', function (e) {
+          e.preventDefault();
+          var nombre = document.getElementById('f-nombre').value.trim();
+          var contacto = document.getElementById('f-tel').value.trim();
+          var servicio = document.getElementById('f-servicio').value;
+          var mensaje = document.getElementById('f-msg').value.trim();
+          var subject = 'Solicitud de presupuesto — ' + servicio;
+          var body = 'Nombre: ' + nombre + '\n' +
+                     'Contacto: ' + contacto + '\n' +
+                     'Servicio: ' + servicio + '\n\n' +
+                     (mensaje || 'Sin detalles adicionales.');
+          window.location.href = 'mailto:asociacionthesmos@gmail.com?subject=' +
+            encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+        });
+      })();
+    </script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script>
+      window.addEventListener('DOMContentLoaded', function () {
+      (function () {
+        var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        var finePointer = window.matchMedia('(pointer: fine)').matches;
+
+        /* ----- Título del hero: subida cinematográfica palabra a palabra ----- */
+        var h1 = document.querySelector('.hero h1');
+        if (h1 && !reduceMotion) {
+          var idx = 0;
+          var lastInner = null;
+          var wrapNode = function (node) {
+            if (node.nodeType === 3) {
+              var parts = node.textContent.split(/(\s+)/);
+              var frag = document.createDocumentFragment();
+              parts.forEach(function (p) {
+                if (!p) return;
+                if (/^\s+$/.test(p)) {
+                  frag.appendChild(document.createTextNode(' '));
+                } else if (/^\W+$/.test(p) && lastInner) {
+                  /* La puntuación viaja con la palabra anterior: nunca queda huérfana. */
+                  lastInner.textContent += p;
+                } else {
+                  var mask = document.createElement('span');
+                  mask.className = 'w-mask';
+                  var inner = document.createElement('span');
+                  inner.className = 'w-in';
+                  inner.style.animationDelay = (0.28 + idx * 0.08) + 's';
+                  idx++;
+                  inner.textContent = p;
+                  lastInner = inner;
+                  mask.appendChild(inner);
+                  frag.appendChild(mask);
+                }
+              });
+              node.parentNode.replaceChild(frag, node);
+            } else if (node.nodeType === 1) {
+              Array.prototype.slice.call(node.childNodes).forEach(wrapNode);
+            }
+          };
+          Array.prototype.slice.call(h1.childNodes).forEach(wrapNode);
+        }
+
+        /* ----- Barra de progreso de lectura + parallax por capas ----- */
+        var progress = document.getElementById('scrollProgress');
+        var heroMedia = document.querySelector('.hero-media');
+        var whySec = document.querySelector('.why');
+        var whyPhoto = document.querySelector('.why-photo');
+        var whyImg = document.querySelector('.why-photo img');
+        var ticking = false;
+        function updateScrollFx() {
+          ticking = false;
+          var y = window.scrollY || 0;
+          var max = document.documentElement.scrollHeight - window.innerHeight;
+          if (progress) {
+            progress.style.transform = 'scaleX(' + (max > 0 ? Math.min(y / max, 1) : 0) + ')';
+          }
+          if (reduceMotion) return;
+          var vh = window.innerHeight;
+          if (heroMedia && y < vh * 1.3) {
+            heroMedia.style.transform = 'translateY(' + (y * 0.22).toFixed(1) + 'px)';
+          }
+          if (whySec) {
+            var r = whySec.getBoundingClientRect();
+            if (r.top < vh && r.bottom > 0) {
+              whySec.style.setProperty('--py', ((r.top + r.height / 2 - vh / 2) * -0.08).toFixed(1) + 'px');
+            }
+          }
+          if (whyImg && whyPhoto) {
+            var r2 = whyPhoto.getBoundingClientRect();
+            if (r2.top < vh && r2.bottom > 0) {
+              var off = (r2.top + r2.height / 2 - vh / 2) * -0.05;
+              off = Math.max(-26, Math.min(26, off));
+              whyImg.style.transform = 'translateY(' + off.toFixed(1) + 'px) scale(1.14)';
+            }
+          }
+        }
+        window.addEventListener('scroll', function () {
+          if (!ticking) { ticking = true; requestAnimationFrame(updateScrollFx); }
+        }, { passive: true });
+        updateScrollFx();
+
+        /* ----- Micro-interacciones: tilt 3D en tarjetas y botones magnéticos ----- */
+        if (finePointer && !reduceMotion) {
+          document.querySelectorAll('.card').forEach(function (card) {
+            card.addEventListener('mousemove', function (e) {
+              var r = card.getBoundingClientRect();
+              var px = (e.clientX - r.left) / r.width;
+              var py = (e.clientY - r.top) / r.height;
+              card.style.setProperty('--mx', (px * 100).toFixed(1) + '%');
+              card.style.setProperty('--my', (py * 100).toFixed(1) + '%');
+              card.style.transition = 'border-color .35s ease, box-shadow .35s ease';
+              card.style.transform = 'perspective(900px) rotateX(' + ((0.5 - py) * 5).toFixed(2) +
+                'deg) rotateY(' + ((px - 0.5) * 5).toFixed(2) + 'deg) translateY(-6px)';
+            });
+            card.addEventListener('mouseleave', function () {
+              card.style.transition = '';
+              card.style.transform = '';
+            });
+          });
+          document.querySelectorAll('.hero-ctas .btn').forEach(function (btn) {
+            btn.addEventListener('mousemove', function (e) {
+              var r = btn.getBoundingClientRect();
+              var dx = (e.clientX - (r.left + r.width / 2)) / r.width;
+              var dy = (e.clientY - (r.top + r.height / 2)) / r.height;
+              btn.style.transform = 'translate(' + (dx * 7).toFixed(1) + 'px,' + (dy * 5 - 1).toFixed(1) + 'px)';
+            });
+            btn.addEventListener('mouseleave', function () { btn.style.transform = ''; });
+          });
+        }
+
+        /* ----- Escena 3D del hero: partículas doradas y formas en movimiento ----- */
+        (function initHeroGL() {
+          var canvas = document.getElementById('heroCanvas');
+          var hero = document.querySelector('.hero');
+          if (!canvas || !hero || !window.THREE) return;
+          var renderer;
+          try {
+            renderer = new THREE.WebGLRenderer({ canvas: canvas, alpha: true, antialias: true });
+          } catch (e) { return; }
+
+          var scene = new THREE.Scene();
+          var camera = new THREE.PerspectiveCamera(55, 1, 0.1, 100);
+          camera.position.set(0, 0, 9);
+          var group = new THREE.Group();
+          scene.add(group);
+
+          /* Sprite circular suave para las partículas */
+          function makeSprite() {
+            var c = document.createElement('canvas');
+            c.width = c.height = 64;
+            var g = c.getContext('2d');
+            var grad = g.createRadialGradient(32, 32, 0, 32, 32, 32);
+            grad.addColorStop(0, 'rgba(255,255,255,1)');
+            grad.addColorStop(0.35, 'rgba(255,255,255,.65)');
+            grad.addColorStop(1, 'rgba(255,255,255,0)');
+            g.fillStyle = grad;
+            g.fillRect(0, 0, 64, 64);
+            return new THREE.CanvasTexture(c);
+          }
+
+          var isMobile = window.innerWidth < 700;
+          var count = isMobile ? 220 : 950;
+          var pos = new Float32Array(count * 3);
+          var col = new Float32Array(count * 3);
+          var palette = [
+            new THREE.Color(0xD4A944), new THREE.Color(0xE9CC7E),
+            new THREE.Color(0xB98A2E), new THREE.Color(0x8CC084)
+          ];
+          for (var i = 0; i < count; i++) {
+            pos[i * 3] = (Math.random() - 0.5) * 22;
+            pos[i * 3 + 1] = (Math.random() - 0.5) * 13;
+            pos[i * 3 + 2] = (Math.random() - 0.5) * 8 - 1;
+            var cc = palette[Math.random() < 0.12 ? 3 : (Math.random() * 3) | 0];
+            col[i * 3] = cc.r; col[i * 3 + 1] = cc.g; col[i * 3 + 2] = cc.b;
+          }
+          var geo = new THREE.BufferGeometry();
+          geo.setAttribute('position', new THREE.BufferAttribute(pos, 3));
+          geo.setAttribute('color', new THREE.BufferAttribute(col, 3));
+          var points = new THREE.Points(geo, new THREE.PointsMaterial({
+            size: 0.14, map: makeSprite(), vertexColors: true, transparent: true,
+            opacity: 0.85, depthWrite: false, blending: THREE.AdditiveBlending, sizeAttenuation: true
+          }));
+          group.add(points);
+
+          var knot = new THREE.Mesh(
+            new THREE.TorusKnotGeometry(1.5, 0.42, window.innerWidth < 700 ? 64 : 110, window.innerWidth < 700 ? 10 : 14),
+            new THREE.MeshBasicMaterial({ color: 0xD4A944, wireframe: true, transparent: true, opacity: 0.38 })
+          );
+          knot.position.set(3.4, 0.4, -1);
+          group.add(knot);
+
+          var ico = new THREE.Mesh(
+            new THREE.IcosahedronGeometry(0.9, 0),
+            new THREE.MeshBasicMaterial({ color: 0xE9CC7E, wireframe: true, transparent: true, opacity: 0.3 })
+          );
+          ico.position.set(-4.2, 1.6, -2);
+          group.add(ico);
+
+          var octa = new THREE.Mesh(
+            new THREE.OctahedronGeometry(0.7, 0),
+            new THREE.MeshBasicMaterial({ color: 0x8CC084, wireframe: true, transparent: true, opacity: 0.26 })
+          );
+          octa.position.set(-3.6, -1.9, -1.5);
+          group.add(octa);
+
+          function resize() {
+            var w = hero.clientWidth, h = hero.clientHeight;
+            renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, window.innerWidth < 700 ? 1.25 : 1.75));
+            renderer.setSize(w, h, false);
+            camera.aspect = w / h;
+            camera.updateProjectionMatrix();
+            var narrow = camera.aspect < 0.85;
+            group.scale.set(narrow ? 0.72 : 1, narrow ? 0.72 : 1, 1);
+            knot.position.x = narrow ? 1.9 : 3.4;
+            ico.position.x = narrow ? -2.4 : -4.2;
+            octa.position.x = narrow ? -2.1 : -3.6;
+          }
+          resize();
+          window.addEventListener('resize', resize);
+
+          var tx = 0, ty = 0, mx = 0, my = 0;
+          window.addEventListener('mousemove', function (e) {
+            tx = (e.clientX / window.innerWidth - 0.5) * 2;
+            ty = (e.clientY / window.innerHeight - 0.5) * 2;
+          }, { passive: true });
+
+          var inView = true;
+          if ('IntersectionObserver' in window) {
+            new IntersectionObserver(function (en) { inView = en[0].isIntersecting; }, { threshold: 0 }).observe(hero);
+          }
+
+          if (reduceMotion) {
+            renderer.render(scene, camera);
+            return;
+          }
+          var clock = new THREE.Clock();
+          (function tick() {
+            requestAnimationFrame(tick);
+            if (!inView) return;
+            var t = clock.getElapsedTime();
+            mx += (tx - mx) * 0.045;
+            my += (ty - my) * 0.045;
+            points.rotation.y = t * 0.02;
+            points.position.y = Math.sin(t * 0.25) * 0.15;
+            knot.rotation.x = t * 0.22;
+            knot.rotation.y = t * 0.3;
+            knot.position.y = 0.4 + Math.sin(t * 0.7) * 0.22;
+            ico.rotation.y = t * 0.35;
+            ico.rotation.x = t * 0.18;
+            ico.position.y = 1.6 + Math.cos(t * 0.55) * 0.18;
+            octa.rotation.y = -t * 0.28;
+            octa.rotation.z = t * 0.15;
+            octa.position.y = -1.9 + Math.sin(t * 0.6 + 1.3) * 0.16;
+            group.rotation.y = mx * 0.14;
+            group.rotation.x = my * 0.08;
+            camera.position.x = mx * 0.6;
+            camera.position.y = -my * 0.4;
+            camera.lookAt(0, 0, 0);
+            renderer.render(scene, camera);
+          })();
+        })();
+      })();
+      });
+    </script>
+  </body>
+</html>
